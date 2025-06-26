@@ -9,36 +9,36 @@
     <style>
         body {
             font-family: 'Roboto', Helvetica, Arial, sans-serif;
-            padding-top: 80px;
+            padding-top: 50px;
             background-color: #121212;
             color: #ffffff;
         }
         .header {
             text-align: center;
-            margin-bottom: 60px;
+            margin-bottom: 40px;
         }
         .header h1 {
-            font-size: 4rem;
+            font-size: 3rem;
             font-weight: 700;
             color: #ff4c4c;
         }
         .lead {
-            font-size: 1.5rem;
+            font-size: 1.2rem;
             color: #cccccc;
         }
         .team-section {
-            margin-top: 60px;
+            margin-top: 40px;
         }
         .team-section h2 {
-            font-size: 2.5rem;
+            font-size: 2rem;
             color: #ff4c4c;
-            margin-bottom: 30px;
+            margin-bottom: 20px;
         }
         .list-group-item {
             background-color: #1e1e1e;
             border: none;
             color: #ffffff;
-            font-size: 1.2rem;
+            font-size: 1rem;
         }
         .btn-primary {
             background-color: #ff4c4c;
@@ -49,12 +49,23 @@
             background-color: #e04040;
         }
         .footer {
-            margin-top: 70px;
+            margin-top: 50px;
             text-align: center;
             color: #888888;
         }
         ul li strong {
             color: #ff4c4c;
+        }
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 2.5rem;
+            }
+            .lead {
+                font-size: 1rem;
+            }
+            .team-section h2 {
+                font-size: 1.5rem;
+            }
         }
     </style>
 </head>
@@ -64,10 +75,12 @@
     <div class=\"header\">
         <h1>HewesNguyen AI</h1>
         <p class=\"lead\">Empowering Innovation Through Recursive AI Systems</p>
+        <p class=\"lead\">With a focus on empowering the engineer to be their own data expert</p>
+        <p class=\"lead\">Our dedicated focus on the Energy industry integrates SCADA systems with structured and unstructured data to drive actionable business insights, enhance decision-making, and maximize profitability.</p>
     </div>
 
     <div class=\"row justify-content-center\">
-        <div class=\"col-md-8\">
+        <div class=\"col-md-10 col-lg-8\">
             <p>Welcome to HewesNguyen AI, your gateway to pioneering recursive AI technologies. Our solutions span advanced cognitive architectures, structured semantic understanding, and intuitive vector-based memory systems.</p>
 
             <ul>
@@ -79,14 +92,14 @@
             <div class=\"team-section\">
                 <h2 class=\"text-center\">Meet Our Team</h2>
                 <ul class=\"list-group\">
-                    <li class=\"list-group-item\"><strong>Brian Hewes</strong> - CEO</li>
-                    <li class=\"list-group-item\"><strong>Jerry Nguyen</strong> - CTO</li>
+                    <li class=\"list-group-item\"><strong>Brian Hewes</strong> - Chief Executive Officer</li>
+                    <li class=\"list-group-item\"><strong>Jerry Nguyen</strong> - Chief Technology Officer</li>
                     <li class=\"list-group-item\"><strong>LaVell Jackson</strong> - Lead Developer</li>
                     <li class=\"list-group-item\"><strong>Kyle Hix</strong> - Chief Design Officer</li>
                 </ul>
             </div>
 
-            <div class=\"text-center mt-5\">
+            <div class=\"text-center mt-4\">
                 <a href=\"https://github.com/HewesNguyenAI\" class=\"btn btn-primary btn-lg\">Visit Our GitHub</a>
             </div>
         </div>
